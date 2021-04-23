@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "module": "es6",
+      "target": "es5",
+      "allowJs": true,
+      // "lib": ["dom", "dom.iterable"],
+      "skipLibCheck": true,
+      "strict": false,
+      "noImplicitAny": true,
+      "forceConsistentCasingInFileNames": true,
+      "typeRoots" : ["node_modules/@types", "src/types", "./typings"],
+    //   "noEmit": true,
+      "esModuleInterop": true,
+     
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "react",
+      "baseUrl": "src",
+      "sourceMap": true,
+      "strictNullChecks" :false,     
+    },
+    "exclude": ["node_modules*/*.spec.ts", "**/*.test.ts" ,"./built/**/*" ],
+    "include": ["src",
+               "src/**/*.ts",
+              "src/**/*.tsx",
+               "declaration.d.ts",
+              "src/types/images.d.ts"] 
+}
+    // {
+    //     "compilerOptions": {
+    //       "outDir": "./dist/",
+    //       "noImplicitAny": true,
+    //       "module": "es6",
+    //       "target": "es5",
+    //       "jsx": "react",
+    //       "allowJs": true
+    //     }
+    //   }
